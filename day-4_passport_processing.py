@@ -1,5 +1,5 @@
 import re
-from os import X_OK, pipe
+
 
 with open('./advent_of_code/files/day-4_input.txt', mode='r') as f:
     puzzle_input = [input.replace('\n', ' ')
